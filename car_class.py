@@ -56,3 +56,22 @@ class Car:
     def model(self):
         """Deleter for model"""
         del self._model 
+
+    # Decoratoes
+    #A function that is used to modify another function or method
+    # without modifiying the base function or method.
+    # Pass base function as an argument to the decorator
+    
+    ## Defining decorator function
+    def add_alloy_wheels(func):# here need to pass the function as an argument
+        def wrapper(*args, **kwargs): #Need this function to wrap the base function
+            print("Adding alloy wheels...")
+            func(*args, **kwargs)
+        return wrapper
+    
+
+    @add_alloy_wheels # This decorator will be called whenever the below function is called
+    #we can stack here multiple decorators
+    # Original Function
+    def get_new_wheels(self, new_wheels):
+        print(f' We got you {new_wheels} new wheels')

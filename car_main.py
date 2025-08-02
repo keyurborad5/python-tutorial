@@ -61,6 +61,8 @@ def main():
     del hcar1.model  # Using deleter to delete the model
     # print(hcar1)  # Accessing property after deletion
     ##************************END Property Decorator *************************####
+    ##************ Decorators **********************************####
+    ecar1.get_new_wheels(4)
 
     
 
