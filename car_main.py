@@ -36,11 +36,33 @@ def main():
     hcar1= HybridCar("Toyota Prius", 2020, "Blue", False)
     gcar1 = GasCar("Ford Mustang", 2019, "Black", True)
     ecar1.drive()
-    print(ecar1.color)
+    print(ecar1._color)
     print(ecar1.cost)
     hcar1.drive()
     gcar1.drive()
     print(f'number of cars created: {Car.number_of_cars}')  # Accessing class variable
+    ##************************END Iheritance *************************####
+    #************ Static Method **********************************####
+    print(f"Number of wheels in all cars: {Car.get_number_of_wheels()}")  # Calling static method
+    print(f"Is ecar1 a car? {Car.is_car_type(ecar1)}")  # Calling static method
+    ##************************END Static Method *************************####
+    #************ Class Method **********************************####
+    print(f"Total number of Car instances created: {Car.get_number_of_cars()}")  # Calling class method
+    ##************************END Class Method *************************####    
+    #************ Magic Method **********************************####
+    print(ecar1)  # Calling magic method __str__ to get a string representation of the object
+    print(hcar1)
+    ##************************END Magic Method *************************####
+    #************ Property Decorator **********************************####
+    print(f"Model of ecar1 before setter: {ecar1.model}")  # Accessing property
+    ecar1.model = "LUCID"  # Using setter to change the model
+    print(f"Model of ecar1 after setter: {ecar1.model}")  # Accessing property
+    print(ecar1)
+    del hcar1.model  # Using deleter to delete the model
+    # print(hcar1)  # Accessing property after deletion
+    ##************************END Property Decorator *************************####
+
+    
 
 if __name__ == "__main__":
     main()  # This will call the main function if this script is run directly
