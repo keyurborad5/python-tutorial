@@ -1,0 +1,22 @@
+2025-03-07 04:03:43.893 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [info] > [hls] Unable to determine CurrentIntegratedTimelineSegmentAndCurrentTime. Missing InterstitialActions class. 
+2025-03-07 04:03:43.893 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [stop] > [hls] Unable to determine CurrentIntegratedTimelineSegmentAndCurrentTime. Missing InterstitialActions class. 
+2025-03-07 04:03:43.895 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [warn] > [QE Critical] [eventTrigger]  {"event":"hlsManifestParsed"}
+2025-03-07 04:03:43.896 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [info] > [QE Critical] [gapless]  {"isGapless":false,"isAudioOnly":false,"isFirstItem":true,"sessionId":"8vrzyr3oxi4","itemId":"whatever_20:3:43.776"}
+2025-03-07 04:03:43.893 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [error] > [hls] Unable to determine CurrentIntegratedTimelineSegmentAndCurrentTime. Missing InterstitialActions class. 
+2025-03-07 04:03:43.895 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [info] > [QE Critical] [eventTrigger]  {"event":"hlsManifestParsed"}
+2025-03-07 04:03:43.896 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [critical] > [QE Critical] [gapless]  {"isGapless":false,"isAudioOnly":false,"isFirstItem":true,"sessionId":"8vrzyr3oxi4","itemId":"whatever_20:3:43.776"}
+2025-03-07 04:03:43.893 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [info] > [hls] Unable to determine CurrentIntegratedTimelineSegmentAndCurrentTime. Missing InterstitialActions class. 
+2025-03-07 04:03:43.895 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [warn] > [QE Critical] [eventTrigger]  {"event":"hlsManifestParsed"}
+2025-03-07 04:03:43.896 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [info] > [QE Critical] [gapless]  {"isGapless":false,"isAudioOnly":false,"isFirstItem":true,"sessionId":"8vrzyr3oxi4","itemId":"whatever_20:3:43.776"}
+2025-03-07 04:03:43.893 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [stop] > [hls] Unable to determine CurrentIntegratedTimelineSegmentAndCurrentTime. Missing InterstitialActions class. 
+2025-03-07 04:03:43.895 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [info] > [QE Critical] [eventTrigger]  {"event":"hlsManifestParsed"}
+2025-03-07 04:03:43.896 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [error] > [QE Critical] [gapless]  {"isGapless":false,"isAudioOnly":false,"isFirstItem":true,"sessionId":"8vrzyr3oxi4","itemId":"whatever_20:3:43.776"}
+2025-03-07 04:03:43.893 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [info] > [hls] Unable to determine CurrentIntegratedTimelineSegmentAndCurrentTime. Missing InterstitialActions class. 
+2025-03-07 04:03:43.895 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [warn] > [QE Critical] [eventTrigger]  {"event":"hlsManifestParsed"}
+2025-03-07 04:03:43.896 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [warn] > [QE Critical] [gapless]  {"isGapless":false,"isAudioOnly":false,"isFirstItem":true,"sessionId":"8vrzyr3oxi4","itemId":"whatever_20:3:43.776"}
+2025-03-07 04:03:43.893 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [info] > [hls] Unable to determine CurrentIntegratedTimelineSegmentAndCurrentTime. Missing InterstitialActions class. 
+2025-03-07 04:03:43.895 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [error] > [QE Critical] [eventTrigger]  {"event":"hlsManifestParsed"}
+2025-03-07 04:03:43.896 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [critical] > [QE Critical] [gapless]  {"isGapless":false,"isAudioOnly":false,"isFirstItem":true,"sessionId":"8vrzyr3oxi4","itemId":"whatever_20:3:43.776"}
+2025-03-07 04:03:43.893 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [info] > [hls] Unable to determine CurrentIntegratedTimelineSegmentAndCurrentTime. Missing InterstitialActions class. 
+2025-03-07 04:03:43.895 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [warn] > [QE Critical] [eventTrigger]  {"event":"hlsManifestParsed"}
+2025-03-07 04:03:43.896 UTC+00:00| [SessionID: 8vrzyr3oxi4] | [error] > [QE Critical] [gapless]  {"isGapless":false,"isAudioOnly":false,"isFirstItem":true,"sessionId":"8vrzyr3oxi4","itemId":"whatever_20:3:43.776"}
